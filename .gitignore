@@ -1,0 +1,5 @@
+# ignora a pasta do ambiente virtual
+venv_windows/
+
+# ignora todos os caches do python
+**/__pycache__/
