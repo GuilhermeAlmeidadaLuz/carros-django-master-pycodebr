@@ -1,9 +1,7 @@
 # ignora a pasta do ambiente virtual
-<<<<<<< HEAD
-venv/
-=======
 venv_windows/
 
 # ignora todos os caches do python
 **/__pycache__/
->>>>>>> origin/django-master-modulo-06-aula-030
+
+*.sqlite3
