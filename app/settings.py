@@ -37,10 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-=======
     'cars',
->>>>>>> origin/django-master-modulo-06-aula-030
 ]
 
 MIDDLEWARE = [
