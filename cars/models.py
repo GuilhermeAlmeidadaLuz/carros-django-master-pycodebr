@@ -10,3 +10,6 @@ class Car(models.Model):    # o nome da classe é o nome da tabela no banco
     factory_year = models.IntegerField(blank=True, null=True)   # tipo IntegerField
     model_year = models.IntegerField(blank=True, null=True)
     value = models.FloatField(blank=True, null=True)
+
+    def __str__(self): # <-- altera como um objeto da classe (instância) é exibido
+        return self.model
