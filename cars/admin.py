@@ -5,7 +5,7 @@ from cars.models import Car
 class CarAdmin(admin.ModelAdmin):
 		# configurações do admin
 		list_display = ('model', 'brand', 'factory_year', 'model_year', 'value')
-		search_fields = ('model',)
+		search_fields = ('model', 'brand')
 		
 # agora é preciso indicar que a classe CarAdmin vai estar visível para o admin 
 # através da função register e incluir os models Car e CarAdmin
