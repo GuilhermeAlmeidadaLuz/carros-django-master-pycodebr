@@ -3,4 +3,15 @@ from django.http import HttpResponse
 
 # Create your views here.
 def cars_view(request):
-    return HttpResponse('Meus Carros 1')
+    html = '''
+        <html>
+            <head>
+                <title>Meus Carros</title>
+            </head>
+            <body>
+                <h1>Carros da PycodeBR</h1>
+                <h3>Só carro top!</h3>
+            </body>
+        </html>    
+    '''
+    return HttpResponse(html)
